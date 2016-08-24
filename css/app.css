@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+.keyboard {
+  width: 600px;
+  border-right: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.key {
+  width: 50px;
+  height: 200px;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.play {
+  background: #aaa;
+  color: white;
+}
